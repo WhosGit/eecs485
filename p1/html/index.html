@@ -2,6 +2,16 @@
 <html lang="en">
 <head>
     <style>
+        .box {
+            /* border: 2px solid black; 设置边框的宽度、样式和颜色 */
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            line-height: 1.5;
+        }
+
         body {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             background-color: #f0f0f0;
@@ -18,7 +28,7 @@
         h1 img {
             margin-left: 10px;
         }
-        p {
+        /* p {
             background-color: #ffffff;
             padding: 20px;
             margin: 20px;
@@ -27,31 +37,39 @@
         }
         p img {
             border-radius: 50%;
-        }
+        } */
     </style>
 </head>
 <body>
 
 <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
     
-    INS485
     <a href="/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" width="30" height="30">
     </a>
+ INS485
 
-    <span style="margin-left: auto;"></span>
-        <a href="https://eecs376.org/" style="text-decoration: none; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">explore</a>
-        <a href="https://eecs370.github.io/" style="text-decoration: none; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">|awdeorio</a>
+    <span style="margin-left: auto;">
+        <a href="https://eecs376.org/" style="text-decoration: none; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: small;">explore</a>
+        <a href="https://eecs370.github.io/" style="text-decoration: none; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: small;">|awdeorio</a>
     </span>
 
 </h1>
 
-<p>
-<img src="uploads/e1a7c5c32973862ee15173b0259e3efdb6a391af.jpg" alt="awdeorio" width="50" height="50">
+<p class="box">
+<!-- <div style="text-align: left; font-size: small; color: gray;"></div> -->
+    <img style="border-radius: 50%;" src="uploads/e1a7c5c32973862ee15173b0259e3efdb6a391af.jpg" alt="awdeorio" width="50" height="50">
+
+    <span style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="text-align: left;"><strong>awdeorio</strong>
+        </span>
+        <span style="text-align: right; color: gray;">10 minutes ago</span>
+    </span>
+
 <br>
 
 
-    <img style="text-align: center;" src="uploads/122a7d27ca1d7420a1072f695d9290fad4501a41.jpg">
+    <img  src="uploads/9887e06812ef434d291e4936417d125cd594b38a.jpg">
 
 <br>
 
@@ -60,6 +78,49 @@
     <strong>awdeorio</strong> #chickensoftinstagram <br>
     <strong>jflinn</strong> I like chickens <br>
     <strong>michjc</strong> Cute overload! <br>
+</p>
+
+<p class="box">
+    <!-- <div style="text-align: left; font-size: small; color: gray;"></div> -->
+        <img style="border-radius: 50%;" src="uploads/505083b8b56c97429a728b68f31b0b2a089e5113.jpg" width="50" height="50">
+    
+        <span style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="text-align: left;"><strong>jflinn</strong> </span>
+            <span style="text-align: right; color: gray;">4 hours ago</span>
+        </span>
+    
+    <br>
+    
+        <img style="object-fit: fill;padding: 0px;" src="uploads/ad7790405c539894d25ab8dcf0b79eed3341e109.jpg">
+    
+    <br>
+    
+    2 likes <br>
+    
+        <strong>awdeorio</strong> Sick #crossword <br>
+</p>
+
+    <p class="box">
+        <!-- <div style="text-align: left; font-size: small; color: gray;"></div> -->
+            <img style="border-radius: 50%;" src="uploads/e1a7c5c32973862ee15173b0259e3efdb6a391af.jpg" alt="awdeorio" width="50" height="50">
+        
+            <span style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="text-align: left;"><strong>awdeorio</strong></span>
+                <span style="text-align: right; color: gray;">a day ago</span>
+            </span>
+        
+        <br>
+        
+        
+            <img  src="uploads/122a7d27ca1d7420a1072f695d9290fad4501a41.jpg">
+        
+        <br>
+        
+        3 likes <br>
+        
+            <strong>jflinn</strong> Walking the plank #chickensoftinstagram <br>
+            <strong>awdeorio</strong> This was after trying to teach them to do a #crossword <br>
+        </p>
 
 </body>
 </html>
